@@ -1,4 +1,4 @@
-# JavaFX_Battle_Project
+# JavaFX Battle Project
 This is a project created for my Computer Science A class using the JavaFX library to create a basic battle game.
 
 This uses the JavaFX library to create a really simple game similar to Galaga but with a store.
