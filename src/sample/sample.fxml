@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="pane1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#onPress" onKeyReleased="#onRelease" onMouseClicked="#mouseClick" prefHeight="800.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <Pane fx:id="battleScreen" layoutX="100.0" layoutY="3.0" prefHeight="700.0" prefWidth="1200.0">
+      <children>
+         <Label fx:id="l1" alignment="CENTER" layoutX="437.0" layoutY="242.0" prefHeight="217.0" prefWidth="326.0" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+            <font>
+               <Font name="Arial Bold" size="81.0" />
+            </font>
+         </Label>
+         <Label fx:id="l5" alignment="TOP_CENTER" layoutX="350.0" layoutY="459.0" prefHeight="200.0" prefWidth="500.0" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+            <font>
+               <Font name="System Bold" size="40.0" />
+            </font>
+         </Label>
+      </children></Pane>
+<!--   Please excuse the button, it doesn't work if it's not here. I know how to fix it, but I'll deal with it later-->
+   <Button fx:id="b1" layoutX="609.0" layoutY="738.0" mnemonicParsing="false" onAction="#start" prefHeight="25.0" prefWidth="182.0" text="Start Battle">
+      <font>
+         <Font name="System Bold" size="18.0" />
+      </font></Button>
+   <ProgressBar fx:id="p1" layoutX="100.0" layoutY="716.0" prefHeight="60.0" prefWidth="275.0" progress="0.0" visible="false" />
+   <ProgressBar fx:id="p2" layoutX="1025.0" layoutY="716.0" prefHeight="60.0" prefWidth="275.0" progress="0.0" visible="false" />
+   <Label fx:id="l2" layoutX="100.0" layoutY="689.0" prefHeight="27.0" prefWidth="275.0" style="-fx-background-color: white;" text="Health" visible="false">
+      <font>
+         <Font name="System Bold Italic" size="18.0" />
+      </font>
+      <padding>
+         <Insets left="10.0" />
+      </padding>
+   </Label>
+   <Label fx:id="l3" layoutX="1025.0" layoutY="689.0" prefHeight="27.0" prefWidth="275.0" style="-fx-background-color: white;" text="Charge" visible="false">
+      <font>
+         <Font name="System Bold Italic" size="18.0" />
+      </font>
+      <padding>
+         <Insets left="10.0" />
+      </padding>
+   </Label>
+   <ProgressBar fx:id="p3" layoutX="563.0" layoutY="728.0" prefHeight="60.0" prefWidth="275.0" progress="0.0" visible="false" />
+   <Label fx:id="l4" layoutX="563.0" layoutY="703.0" prefHeight="27.0" prefWidth="275.0" style="-fx-background-color: white;" text="Time Left" visible="false">
+      <font>
+         <Font name="System Bold Italic" size="18.0" />
+      </font>
+      <padding>
+         <Insets left="10.0" />
+      </padding>
+   </Label>
+   <ToggleButton fx:id="tb1" layoutX="807.0" layoutY="745.0" mnemonicParsing="false" text="Toggle cheat" />
+</AnchorPane>

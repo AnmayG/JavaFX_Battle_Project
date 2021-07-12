@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="a" prefHeight="800.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TitleScreen">
+   <children>
+      <Button fx:id="b1" layoutX="650.0" layoutY="388.0" minHeight="40.0" minWidth="100.0" mnemonicParsing="false" onAction="#switchScreen" prefHeight="40.0" prefWidth="100.0" />
+   </children>
+</AnchorPane>

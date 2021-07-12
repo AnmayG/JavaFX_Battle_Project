@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Shop">
+   <Pane fx:id="displayScreen" layoutX="100.0" layoutY="100.0" prefHeight="600.0" prefWidth="900.0" />
+   <Label fx:id="l1" alignment="CENTER" layoutX="214.0" prefHeight="100.0" prefWidth="972.0" text="Shop" textAlignment="CENTER" wrapText="true">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+   <ListView fx:id="list1" layoutX="1000.0" layoutY="100.0" prefHeight="600.0" prefWidth="300.0" />
+   <Button fx:id="b2" layoutX="700.0" layoutY="700.0" mnemonicParsing="false" onAction="#b2Click" prefHeight="60.0" prefWidth="150.0" text="Next">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Button>
+   <Button fx:id="b1" layoutX="550.0" layoutY="700.0" mnemonicParsing="false" onAction="#b1Click" prefHeight="60.0" prefWidth="150.0" text="Buy/Equip">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Button>
+   <Button fx:id="b3" layoutX="1250.0" layoutY="739.0" mnemonicParsing="false" onAction="#b3Click" prefHeight="60.0" prefWidth="150.0" text="Next">
+      <font>
+         <Font name="System Bold" size="18.0" />
+      </font></Button>
+</AnchorPane>
